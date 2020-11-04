@@ -43,6 +43,7 @@
             <workerType>MICRO</workerType>
             <objectStoreV2>true</objectStoreV2>
             <region>us-east-2</region>
+            <businessGroup>${env.BG}</businessGroup>
             <properties>
               <anypoint.platform.client_id>${env.PLATFORM_CLIENT_ID}</anypoint.platform.client_id>
               <anypoint.platform.client_secret>${env.PLATFORM_CLIENT_SECRET}</anypoint.platform.client_secret>
